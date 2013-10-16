@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/FerencYAO/OLImageViewNotAF"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Ferenc YAO" => "ferencyao@gmail.com" }
-  s.source       = { :git => "https://github.com/FerencYAO/OLImageViewNotAF.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/FerencYAO/OLImageViewNotAF", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
   s.framework  = 'ImageIO', 'MobileCoreServices', 'QuartzCore'
   s.requires_arc = true
