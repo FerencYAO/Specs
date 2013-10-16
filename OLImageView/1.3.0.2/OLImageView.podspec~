@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Animated GIFs implemented the right way."
   s.homepage     = "https://github.com/FerencYAO/OLImageViewNotAF"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { "Ferenc YAO" => "ferencyao@gmail.com" }
+  s.author       = { "Diego Torres" => "contact@dtorres.me" }
   s.source       = { :git => "https://github.com/ondalabs/OLImageView.git", :tag => s.version.to_s }
   s.platform     = :ios, '5.0'
   s.framework  = 'ImageIO', 'MobileCoreServices', 'QuartzCore'
